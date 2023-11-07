@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285133710825",
+    "project_id": "fir-evaluacion-97927",
+    "storage_bucket": "fir-evaluacion-97927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285133710825:android:4cee91907586b73b075778",
+        "android_client_info": {
+          "package_name": "com.example.evaluacion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlJurrQlweZsEFowL-cMqso2t9548LXSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

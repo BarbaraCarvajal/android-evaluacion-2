@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Evaluacion</string>
+    <string name="get_started_text">Show your\n responsibility\n towards society</string>
+    <string name="forgot_password_msg">Don\'t worry! it happens. Please enter the email address associated with your account.</string>
+    <string name="on_submit_msg">Check out your mailbox, you will receive an email containing link where you can reset your password</string>
+    <string name="content_base">El reciclaje es fundamental para conservar recursos naturales, reducir la contaminación y ahorrar energía. También crea empleos, reduce residuos y promueve la sostenibilidad a largo plazo.</string>
+    <string name="recicla">✧.* ✧.*✧.*RECICLAR PUEDE CAMBIAR TU VIDA✧.*✧.* ✧.*✧</string>
+</resources>
