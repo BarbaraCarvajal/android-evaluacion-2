@@ -4,60 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BCD5CF"
-    android:backgroundTint="#D6C7C7"
+    android:background="@drawable/background_gradient"
     tools:context=".MainActivity">
 
-
-    <ImageView
-        android:id="@+id/primera_imageView"
-        android:layout_width="330dp"
-        android:layout_height="321dp"
-        android:layout_marginTop="60dp"
-        android:src="@drawable/reciclar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.176"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        style="@style/TextoCentradoVerdeAgua"
-        android:layout_width="682dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="515dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="153dp"
-        android:background="#F1F3F1"
-        android:backgroundTint="#8FA698"
-        android:text="@string/content_base"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/segunda_imageView"
-        android:layout_width="201dp"
-        android:layout_height="191dp"
-        android:layout_marginTop="299dp"
-        android:src="@drawable/dos"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.393"
-        app:layout_constraintStart_toEndOf="@+id/primera_imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
+    <!-- Botón de Cerrar Sesión -->
     <Button
         android:id="@+id/btnSignOut"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#5D7754"
-        android:text="Sign Out"
+        android:background="@drawable/button_rounded_corners"
+        android:padding="16dp"
+        android:text="Cerrar sesión"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.371" />
+        app:layout_constraintVertical_bias="0.05" />
+
+    <!-- Título de Nueva Idea -->
+    <TextView
+        android:id="@+id/crearIdeas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_rounded_corners"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Nueva idea"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/verIdeas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+    <!-- Título de Ver Mis Ideas -->
+    <TextView
+        android:id="@+id/verIdeas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_rounded_corners"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Ver mis ideas"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

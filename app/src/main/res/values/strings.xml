@@ -1,8 +1,23 @@
 <resources>
     <string name="app_name">Evaluacion</string>
-    <string name="get_started_text">Show your\n responsibility\n towards society</string>
-    <string name="forgot_password_msg">Don\'t worry! it happens. Please enter the email address associated with your account.</string>
-    <string name="on_submit_msg">Check out your mailbox, you will receive an email containing link where you can reset your password</string>
+    <string name="get_started_text">Nunca más\n pierdas una\n buena idea</string>
+    <string name="forgot_password_msg">¡No te preocupes! esas cosas pasan. Ingresa tu contraseña.</string>
+    <string name="on_submit_msg">Revisa tu bandeja de entrada, recibirás un correo con un link para cambiar tu contraseña</string>
     <string name="content_base">El reciclaje es fundamental para conservar recursos naturales, reducir la contaminación y ahorrar energía. También crea empleos, reduce residuos y promueve la sostenibilidad a largo plazo.</string>
     <string name="recicla">✧.* ✧.*✧.*RECICLAR PUEDE CAMBIAR TU VIDA✧.*✧.* ✧.*✧</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Etiquetas para los campos del formulario -->
+    <string name="nombre_label">Nombre de la idea</string>
+    <string name="descripcion_label">Descripción</string>
+
+    <!-- Hints para los campos de texto -->
+    <string name="nombre_hint">Introduce un nombre para la idea</string>
+    <string name="descripcion_hint">Escribe una descripción detallada</string>
+    <string name="titulo_formulario">Crear nueva idea</string>
+
+    <!-- Textos para los botones -->
+    <string name="volver">Volver</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>
